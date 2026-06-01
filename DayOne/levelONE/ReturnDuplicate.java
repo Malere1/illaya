@@ -5,6 +5,13 @@ public class ReturnDuplicate {
 public static void main(String[] args) {
 
 int[] array = {1, 2, 3, 2, 4, 3};
+import java.util.ArrayList;
+
+public class ReturnDuplicate {
+
+public static void main(String[] args) {
+
+int[] array = {1, 2, 3, 2, 4, 3};
 
 ArrayList<Integer> duplicate = new ArrayList<>();
 
@@ -20,12 +27,4 @@ count++;
 }
 }
 
-if (count >= 2) {
 
-duplicate.add(array[count]);
-}
-}
-
-System.out.println(duplicate);
-}
-}
