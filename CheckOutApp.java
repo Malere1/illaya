@@ -54,7 +54,6 @@ public class CheckOutApp {
         double vat = 0.075 * subTotal;
         double billTotal = subTotal - discount + vat;
 
-        System.out.println("\n===== RECEIPT =====");
         System.out.println("Customer: " + customerName);
         System.out.println("Worker: " + workersName);
         System.out.println("Subtotal: " + subTotal);
