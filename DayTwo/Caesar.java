@@ -26,7 +26,10 @@ shift = shift % 26;
     return result;
 }
 
-
+public static void main(String[]args) {
+System.out.println(encryptedText("EOB MY GUY", 3));
+     
+}
 
 
 
